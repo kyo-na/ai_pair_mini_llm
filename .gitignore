@@ -1,0 +1,42 @@
+# Build
+build/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.lib
+*.dll
+*.exp
+*.ilk
+
+# VS
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+*.txt
+corpus.txt
+engine/mini_llm.zip
+
+# CUDA build
+*.cubin
+*.ptx
+
+*.cu
+*.cuh
+*.ptx
+*.cubin
+
+# training data
+data/data.txt
+data/mini_dialog.txt
+data/shard_000.txt
+
+# optional: 全部のtxtを除外したいなら
+data/*.txt
